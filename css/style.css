@@ -1,0 +1,11 @@
+/*@font-face {
+  font-family: fjallaOne;
+  src: url(https://fonts.google.com/specimen/Fjalla+One?selection.family=Fjalla+One);
+}*/
+
+html,
+body {
+  font-family: "open sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-image: url("/img/bucketbg.jpg") no-repeat center bottom;
+  background-size: cover;
+}
