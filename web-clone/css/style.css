@@ -1,5 +1,4 @@
 @import url(https://fonts.google.com/specimen/Fjalla+One?selection.family=Fjalla+One);
-
 html,
 body {
   font-family: "open sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -22,32 +21,33 @@ body {
 }
 
 .navbar #search {
-/*  text-align: left;*/
   float: left;
   color: white;
   font-size: 17px;
   width: 230px;
   margin: 0px;
-  
 }
 
-.navbar #search p{
-  /*padding-bottom: 5px;*/
+.navbar #search p {
+  padding-bottom: 5px;
   margin: 2px;
+}
+
+.navbar #logo {
+  text-align: center;
 }
 
 .navbar .right {
   
 }
 
-.navbar .right ul{
+.navbar .right ul {
   list-style-type: none;
   display: inline;
   /*text-align: right;*/
   margin: 0px;
   padding: 0px;
   float: right;
-
 }
 
 .navbar .right li {
@@ -68,6 +68,10 @@ body {
   font-weight: 600;
 }
 
+.navbar .right li a:hover {
+  background: #999999;
+}
+
 .navbar .right li #sign-up {
   color: white;
   border: 2px solid white;
@@ -76,6 +80,7 @@ body {
   border-radius: 5px;
   margin: 5px 5px 6px;
 }
+
 
 /*
 
@@ -133,16 +138,46 @@ li a {
   text-transform: capitalize;
   color: white;
   font-style: italic;
-/*  margin-bottom: 45px;*/
+  /*  margin-bottom: 45px;*/
   max-width: 750px;
-/*  margin-left: auto;
+  /*  margin-left: auto;
   margin-right: auto;
   margin-top: 0px;*/
   margin: 0px auto 45px auto;
 }
 
 .main .container ul {
-  
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main .container ul li {
+  padding: 10px;
+  display: inline;
+}
+
+.main .container ul li a {
+  color: white;
+  text-align: center;
+  /*padding: 14px 16px;*/
+  margin: 8px 5px;
+  font-size: 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 18px 10px;
+}
+
+.main .container #trending {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.main .container #fb {
+  border: 2px solid #2c5ba5;
+  background: #1c74bc;
+  border-radius: 3px;
 }
 
 .supporting li {
