@@ -24,7 +24,16 @@ body {
 .navbar #search {
 /*  text-align: left;*/
   float: left;
-  margin-top: -25px
+  color: white;
+  font-size: 17px;
+  width: 230px;
+  margin: 0px;
+  
+}
+
+.navbar #search p{
+  /*padding-bottom: 5px;*/
+  margin: 2px;
 }
 
 .navbar .right {
@@ -35,8 +44,8 @@ body {
   list-style-type: none;
   display: inline;
   /*text-align: right;*/
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   float: right;
 
 }
@@ -48,7 +57,7 @@ body {
 }
 
 .navbar .right li a {
-  display: block;
+  /*display: block;*/
   color: white;
   text-align: center;
   /*padding: 14px 16px;*/
@@ -64,6 +73,8 @@ body {
   border: 2px solid white;
   padding: 6px;
   text-transform: uppercase;
+  border-radius: 5px;
+  margin: 5px 5px 6px;
 }
 
 /*
@@ -108,24 +119,30 @@ li a {
   font-weight: 400;
   margin: 15px 0 0;
   color: white;
-  font-size: 150px;
+  font-size: 190px;
   font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
 }
 
 .main .subtitle {
   font-size: 33px;
-  /*  line-height: 140px;*/
+  /*line-height: 140px;*/
   text-shadow: none;
   font-family: "Lora", "open sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
   text-transform: capitalize;
   color: white;
   font-style: italic;
-  margin-bottom: 45px;
+/*  margin-bottom: 45px;*/
   max-width: 750px;
-  margin-left: auto;
+/*  margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;*/
+  margin: 0px auto 45px auto;
+}
+
+.main .container ul {
+  
 }
 
 .supporting li {

@@ -8,17 +8,20 @@ if they are the same, return true*/
 
 function reverseString(word){
   var reverse = '';
+  if (word === ''){
+    return null;
+  }
   for (var i = word.length-1; i >= 0; i--){
     reverse += word[i];
   }
-  if (typeof word !== null && typeof value === 'undefined' && reverse === word){
+  if (typeof word === null || typeof word === 'undefined'){
+    return null;
+  }
+  if (word === reverse){
     return true;
   }
-  else if (word !== reverse){
+  else{
     return reverse;
-  }
-  else {
-    return "null";
   }
   //console.log(reverse);
 }
