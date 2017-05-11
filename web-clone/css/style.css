@@ -1,0 +1,136 @@
+@import url(https://fonts.google.com/specimen/Fjalla+One?selection.family=Fjalla+One);
+
+html,
+body {
+  font-family: "open sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-image: url("../img/bucketbg.jpg");
+  background-position: center top;
+  background-size: cover;
+}
+
+.wrapper {}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  padding: 5px 5px 5px 5px;
+}
+
+.navbar #search {
+/*  text-align: left;*/
+  float: left;
+  margin-top: -25px
+}
+
+.navbar .right {
+  
+}
+
+.navbar .right ul{
+  list-style-type: none;
+  display: inline;
+  /*text-align: right;*/
+  margin: 0;
+  padding: 0;
+  float: right;
+
+}
+
+.navbar .right li {
+  /*border: 10px solid white;*/
+  padding: 10px;
+  float: left;
+}
+
+.navbar .right li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /*padding: 14px 16px;*/
+  margin: 8px 5px;
+  font-size: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar .right li #sign-up {
+  color: white;
+  border: 2px solid white;
+  padding: 6px;
+  text-transform: uppercase;
+}
+
+/*
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+
+.main {
+  float: left;
+  position: relative;
+  width: 100%;
+  margin: 50px auto 0;
+  min-height: 665px;
+  text-align: center;
+  text-shadow: none;
+}
+
+
+/*
+.main .container {
+  text-align: center;
+  margin-top: 30px
+}
+*/
+
+.main .main-line {
+  font-family: "open sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 32px;
+  /*  font-weight: bold;*/
+  color: white;
+  letter-spacing: -1px;
+}
+
+.main .main-pitch {
+  line-height: 105%;
+  letter-spacing: -5px;
+  font-weight: 400;
+  margin: 15px 0 0;
+  color: white;
+  font-size: 150px;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
+
+.main .subtitle {
+  font-size: 33px;
+  /*  line-height: 140px;*/
+  text-shadow: none;
+  font-family: "Lora", "open sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: white;
+  font-style: italic;
+  margin-bottom: 45px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supporting li {
+  text-decoration-line: none;
+  display: inline-block;
+  /*  margin-top: 40px;*/
+  border: 20px solid;
+}
