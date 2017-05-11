@@ -26,20 +26,29 @@ body {
   font-size: 17px;
   width: 230px;
   margin: 0px;
+
 }
 
-.navbar #search p {
-  padding-bottom: 5px;
-  margin: 2px;
+.input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  background-color: ;
+  
+}
+
+
+/* When the input field gets focus, change its width to 100% */
+
+input[type=text]:focus {
+  width: 100%;
 }
 
 .navbar #logo {
   text-align: center;
 }
 
-.navbar .right {
-  
-}
+.navbar .right {}
 
 .navbar .right ul {
   list-style-type: none;
